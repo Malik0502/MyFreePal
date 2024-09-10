@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider @rendermode="InteractiveServer" />
+<MudPopoverProvider @rendermode="InteractiveServer" />
+
+<MudDialogProvider @rendermode="InteractiveServer" />
+
+<MudSnackbarProvider @rendermode="InteractiveServer" />
+
+<div class="page">
+
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+
+    <MudPaper Elevation="25">
+        <MudToolBar>
+            <MudIconButton Icon="@Icons.Material.Filled.Dashboard" />
+            <MudIconButton Icon="@Icons.Material.Filled.MenuBook" />
+            <MudIconButton Icon="@Icons.Material.Filled.MoreHoriz" />
+        </MudToolBar>
+    </MudPaper>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
