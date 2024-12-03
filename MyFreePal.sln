@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFreePal.UI", "MyFreePal.UI\MyFreePal.UI.csproj", "{4D64B7AA-AC67-4083-8DF7-86F8B292B990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFreePal.UI", "MyFreePal.UI\MyFreePal.UI.csproj", "{4D64B7AA-AC67-4083-8DF7-86F8B292B990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFreePal.Logic", "MyFreePal.Logic\MyFreePal.Logic.csproj", "{2B7BCE24-C9EA-47EB-B8FE-E6CFDFAD3F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFreePal.Logic", "MyFreePal.Logic\MyFreePal.Logic.csproj", "{2B7BCE24-C9EA-47EB-B8FE-E6CFDFAD3F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFreePal.Test", "MyFreePal.Test\MyFreePal.Test.csproj", "{09337997-71EB-4634-9D5C-FF29EB3A7E78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFreePal.Test", "MyFreePal.Test\MyFreePal.Test.csproj", "{09337997-71EB-4634-9D5C-FF29EB3A7E78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFreePal.Database", "MyFreePal.Database\MyFreePal.Database.csproj", "{CAD784C4-68B5-44F3-9CFF-3B42C4B09744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFreePal.Database", "MyFreePal.Database\MyFreePal.Database.csproj", "{CAD784C4-68B5-44F3-9CFF-3B42C4B09744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFreePal.Database.Contracts", "MyFreePal.Database.Contracts\MyFreePal.Database.Contracts.csproj", "{42C052DE-F4C7-401D-933B-AC3F38FE4D67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFreePal.Database.Contracts", "MyFreePal.Database.Contracts\MyFreePal.Database.Contracts.csproj", "{42C052DE-F4C7-401D-933B-AC3F38FE4D67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
