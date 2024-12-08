@@ -1,0 +1,74 @@
+﻿.top-Infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5%;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side-content{
+    display: flex;
+    width: 30%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.right-side-content{
+    display: flex;
+    width: 30%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.training-step-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+}
+
+.top-Carousel{
+    display: flex; 
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .right-side-content{
+        display: none;
+    }
+    .left-side-content{
+        display: none;
+    }
+    
+    .content-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main{
+        display: flex;
+        min-width: inherit;
+    }
+    
+    .top-Carousel{
+        width: 100%;
+    }
+}
